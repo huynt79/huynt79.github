@@ -3,14 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>DNS Cloudflare byNhutGG</string>
+    <string>DNS Block Cert(byHuyNT)</string>
     <key>PayloadDescription</key>
-    <string>📣Instructions for using DNS should read:
-1. DO NOT use VPN when using this DNS configuration.
-2. DO NOT use another DNS when using this DNS configuration.
-3. DO NOT turn off the power when using this DNS configuration. If so, switch planes first.
-4. When using DNS, you can install a revoked certificate and still sign the application and use it normally, so don't care whether it is revoked or not.
-Join the group for support: https://t.me/dnscert
+    <string>10 Năm Nữa Thu Hồi(HuyNT79)
 </string>
     <key>PayloadIdentifier</key>
     <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile</string>
@@ -62,9 +57,9 @@ Join the group for support: https://t.me/dnscert
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.6b01a210-dae3-4aee-b94b-1e0c32e564ac.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>CloudflareDNS(Nhutgg)</string>
+        <string>CloudflareDNS(HuyNT79)</string>
         <key>PayloadOrganization</key>
-        <string>NhutGG</string>
+        <string>HuyNT79</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
       </dict>
@@ -112,7 +107,7 @@ Join the group for support: https://t.me/dnscert
 			<key>PayloadIdentifier</key>
 			<string>com.cloudflare.warp.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
 			<key>PayloadOrganization</key>
-			<string>nhutggvn</string>
+			<string>huynt79</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -130,11 +125,11 @@ Join the group for support: https://t.me/dnscert
           <string>https://apple.dns.nextdns.io/129b32/nhutggvn</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Chặn Quảng Cáo (NextDNS)</string>
+			<string>Block Cert,No ADS</string>
 			<key>PayloadIdentifier</key>
 			<string>io.nextdns.129b32.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
-			<string>NextDNS GG</string>
+			<string>DNS Block Cert</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>

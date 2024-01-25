@@ -5,13 +5,7 @@
     <key>PayloadDisplayName</key>
     <string>DNS Cloudflare(byHuyNT79)</string>
     <key>PayloadDescription</key>
-    <string>📣Instructions for using DNS should read:
-1. DO NOT use VPN when using this DNS configuration.
-2. DO NOT use another DNS when using this DNS configuration.
-3. DO NOT turn off the power when using this DNS configuration. If so, switch planes first.
-4. When using DNS, you can install a revoked certificate and still sign the application and use it normally, so don't care whether it is revoked or not.
-Join the group for support: 0923456239
-</string>
+    <string>📣Join the group for support: 0923456239</string>
     <key>PayloadIdentifier</key>
     <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile</string>
     <key>PayloadScope</key>

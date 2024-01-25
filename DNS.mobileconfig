@@ -1,52 +1,168 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-<key>PayloadContent</key>
-<array>
-
-       <dict>
-       <key>DNSSettings</key>
-       <dict>
-       <key>DNSProtocol</key>
-       <string>HTTPS</string>
-       <key>ServerURL</key>
-	<string>https://pdhaav7u28.cloudflare-gateway.com/dns-query</string>
-	</dict>
-	<key>PayloadDisplayName</key>
-	<string>Cloudflare DNS(HuyNT79) </string>
-	<key>PayloadIdentifier</key>
-	<string>1111111</string>
-	<key>PayloadType</key>
-<string>com.apple.dnsSettings.managed</string>
-	<key>PayloadUUID</key>
-	<string>1111111</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-       </dict>
-
-</array>
-<key>PayloadDescription</key>
-<string>From Cloudfale Dns(HNT79)
-- Cấu Hình DNS Có Tác Dụng Chặn Thu Hồi Chứng Chỉ 
-- Cài xong nên để khoảng 5 phút rồi mới cài app bên ngoài.
-- Nghiêm Cấm : Tắt Nguồn - Sập Nguồn - Khởi Động Lại IPHONE - Dùng VPN, chỉnh DNS qua tự động hoặc dùng cấu hình DNS nào khác
-(Muốn tắt nguồn khởi động lại thì bật chế độ máy bay rồi tắt, sau khi khởi động lại để máy chạy 2-3p rồi mới tắt máy bay.
-Muốn bật VPN thì xóa hết tất cả các app cài bên ngoài đi, dùng xong rồi thì tắt VPN để DNS tầm 5 phút rồi cài lại)
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>DNS Cloudflare(byHuyNT79)</string>
+    <key>PayloadDescription</key>
+    <string>📣Instructions for using DNS should read:
+1. DO NOT use VPN when using this DNS configuration.
+2. DO NOT use another DNS when using this DNS configuration.
+3. DO NOT turn off the power when using this DNS configuration. If so, switch planes first.
+4. When using DNS, you can install a revoked certificate and still sign the application and use it normally, so don't care whether it is revoked or not.
+Join the group for support: 0923456239
 </string>
-<key>PayloadDisplayName</key>
-<string>Cloudfale DNS(HNT79)</string>
-<key>PayloadIdentifier</key>
-<string>HNT79</string>
-<key>PayloadRemovalDisallowed</key>
-<false/>
-<key>PayloadScope</key>
-<string>User</string>
-<key>PayloadType</key>
-<string>Configuration</string>
-<key>PayloadUUID</key>
-<string>00000000</string>
-<key>PayloadVersion</key>
-<integer>1</integer>
-</dict>
+    <key>PayloadIdentifier</key>
+    <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.6b01a210-dae3-4aee-b94b-1e0c32e564ac</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://6t1mffr42z.cloudflare-gateway.com/dns-query</string>
+        </dict>
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>Action</key>
+            <string>EvaluateConnection</string>
+            <key>ActionParameters</key>
+            <array>
+              <dict>
+                <key>DomainAction</key>
+                <string>NeverConnect</string>
+                <key>Domains</key>
+                <array>
+                  <string>dav.orange.fr</string>
+                  <string>msg.t-mobile.com</string>
+                </array>
+              </dict>
+            </array>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.6b01a210-dae3-4aee-b94b-1e0c32e564ac.dnsSettings.managed</string>
+        <key>PayloadDisplayName</key>
+        <string>CloudflareDNS(HuyNTVN)</string>
+        <key>PayloadOrganization</key>
+        <string>HuyNTVNHuyNTVN</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>ServerAddresses</key>
+				<array/>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>.certs.apple.com</string>
+          <string>certs.apple.com</string>
+          <string>.certs2.apple.com</string>
+          <string>certs2.apple.com</string>
+          <string>.ocsp4.apple.com</string>
+          <string>ocsp4.apple.com</string>
+          <string>.ocsp3.apple.com</string>
+          <string>ocsp3.apple.com</string>
+          <string>.ocsp2.apple.com</string>
+          <string>ocsp2.apple.com</string>
+          <string>.ocsp.apple.com</string>
+          <string>ocsp.apple.com</string>
+          <string>.crl.apple.com</string>
+          <string>crl.apple.com</string>
+          <string>.valid.apple.com</string>
+          <string>valid.apple.com</string>
+          <string>.mesu.apple.com</string>
+          <string>mesu.apple.com</string>
+          <string>.ffapple.com</string>
+          <string>ffapple.com</string>
+          <string>ppq.apple.com</string>
+          <string>ff2apple.com</string>
+          <string>.ffapple.com</string>
+          <string>.ppq.apple.com</string>
+          <string>ff.apple.com</string>
+          <string>ff2.apple.com</string>
+          <string>.ff.apple.com</string>
+          <string>ppq2.apple.com</string>
+          <string>.ppq2.apple.com</string>
+          <string>pagead2.googlesyndication.com</string>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Default Revoke</string>
+			<key>PayloadIdentifier</key>
+			<string>com.cloudflare.warp.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
+			<key>PayloadOrganization</key>
+			<string>HuyNTVN</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+    
+    <dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://apple.dns.nextdns.io/129b32/nhutggvn</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Block ADS(NextDNS)</string>
+			<key>PayloadIdentifier</key>
+			<string>io.nextdns.129b32.profile.dnsSettings.managed</string>
+			<key>PayloadOrganization</key>
+			<string>NextDNS Business</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.129b32.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://apple.dns.nextdns.io/4de5e2/ByNhutGG</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Máy chủ Việt Anticert</string>
+			<key>PayloadIdentifier</key>
+			<string>io.nextdns.4de5e2.profile.dnsSettings.managed</string>
+			<key>PayloadOrganization</key>
+			<string>NextDNS Business</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.4de5e2.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+    </array>
+  </dict>
 </plist>

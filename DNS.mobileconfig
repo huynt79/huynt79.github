@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>DNS Cloudflare(byHuyNT79)</string>
+    <string>DNS Blocking Cert or ADS(byHuyNT🇻🇳)</string>
     <key>PayloadDescription</key>
-    <string>📣Join the group for support: 0923456239</string>
+    <string>📣Join the group for support:NPMH🇻🇳: 0923456239✔️</string>
     <key>PayloadIdentifier</key>
     <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile</string>
     <key>PayloadScope</key>
@@ -56,9 +56,9 @@
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.6b01a210-dae3-4aee-b94b-1e0c32e564ac.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>CloudflareDNS(HuyNTVN)</string>
+        <string>Blocking Cert(HuyNT🇻🇳)</string>
         <key>PayloadOrganization</key>
-        <string>HuyNTVNHuyNTVN</string>
+        <string>HuyNT🇻🇳</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
       </dict>
@@ -102,11 +102,11 @@
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Default Revoke</string>
+			<string>Blocking🍎</string>
 			<key>PayloadIdentifier</key>
 			<string>com.cloudflare.warp.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
 			<key>PayloadOrganization</key>
-			<string>HuyNTVN</string>
+			<string>HuyNT🇻🇳</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -124,11 +124,11 @@
           <string>https://apple.dns.nextdns.io/129b32/nhutggvn</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Block ADS(NextDNS)</string>
+			<string>Blocking ADS🍎</string>
 			<key>PayloadIdentifier</key>
 			<string>io.nextdns.129b32.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
-			<string>NextDNS Business</string>
+			<string>HuyNT🇻🇳</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -145,11 +145,11 @@
           <string>https://apple.dns.nextdns.io/4de5e2/ByNhutGG</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Máy chủ Việt Anticert</string>
+			<string>Server 🇻🇳 Anticert</string>
 			<key>PayloadIdentifier</key>
 			<string>io.nextdns.4de5e2.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
-			<string>NextDNS Business</string>
+			<string>HuyNT🇻🇳</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>

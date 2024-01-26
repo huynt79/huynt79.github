@@ -1,142 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>PayloadDisplayName</key>
-    <string>DNS Block Cert(byHuyNT)</string>
-    <key>PayloadDescription</key>
-    <string>10 Năm Nữa Thu Hồi(HuyNT79)
-</string>
-    <key>PayloadIdentifier</key>
-    <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile</string>
-    <key>PayloadScope</key>
-    <string>User</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.6b01a210-dae3-4aee-b94b-1e0c32e564ac</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-    <key>PayloadContent</key>
-    <array>
-      <dict>
-        <key>DNSSettings</key>
-        <dict>
-          <key>DNSProtocol</key>
-          <string>HTTPS</string>
-          <key>ServerURL</key>
-          <string>https://6t1mffr42z.cloudflare-gateway.com/dns-query</string>
-        </dict>
-        <key>OnDemandRules</key>
-        <array>
-          <dict>
-            <key>Action</key>
-            <string>EvaluateConnection</string>
-            <key>ActionParameters</key>
-            <array>
-              <dict>
-                <key>DomainAction</key>
-                <string>NeverConnect</string>
-                <key>Domains</key>
-                <array>
-                  <string>dav.orange.fr</string>
-                  <string>msg.t-mobile.com</string>
-                </array>
-              </dict>
-            </array>
-          </dict>
-          <dict>
-            <key>Action</key>
-            <string>Connect</string>
-          </dict>
-        </array>
-        <key>PayloadType</key>
-        <string>com.apple.dnsSettings.managed</string>
-        <key>PayloadIdentifier</key>
-        <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile.dnsSettings.managed</string>
-        <key>PayloadUUID</key>
-        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.6b01a210-dae3-4aee-b94b-1e0c32e564ac.dnsSettings.managed</string>
-        <key>PayloadDisplayName</key>
-        <string>CloudflareDNS(HuyNT79)</string>
-        <key>PayloadOrganization</key>
-        <string>HuyNT79</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-      </dict>
-      <dict>
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://382egudhre.cloudflare-gateway.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Blocking ADS ✔️</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
+			<key>PayloadOrganization</key>
+			<string>mhuynt79🇻🇳</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>0085f63c-ab6d-45ae-9f87-8e0cef7335d4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://m388zwt366.cloudflare-gateway.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>No Blocking ADS ✔️</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.fac89862-8acc-466a-a412-81fdc856dae2</string>
+			<key>PayloadOrganization</key>
+			<string>mhuynt79🇻🇳</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>231184fd-09c0-450a-a34a-e3185fff5f75</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>DNSSettings</key>
 			<dict>
 				<key>ServerAddresses</key>
 				<array/>
 				<key>SupplementalMatchDomains</key>
 				<array>
-					<string>.certs.apple.com</string>
-          <string>certs.apple.com</string>
-          <string>.certs2.apple.com</string>
-          <string>certs2.apple.com</string>
-          <string>.ocsp4.apple.com</string>
-          <string>ocsp4.apple.com</string>
-          <string>.ocsp3.apple.com</string>
-          <string>ocsp3.apple.com</string>
-          <string>.ocsp2.apple.com</string>
-          <string>ocsp2.apple.com</string>
-          <string>.ocsp.apple.com</string>
-          <string>ocsp.apple.com</string>
-          <string>.crl.apple.com</string>
-          <string>crl.apple.com</string>
-          <string>.valid.apple.com</string>
-          <string>valid.apple.com</string>
-          <string>.mesu.apple.com</string>
-          <string>mesu.apple.com</string>
-          <string>.ffapple.com</string>
-          <string>ffapple.com</string>
-          <string>ppq.apple.com</string>
-          <string>ff2apple.com</string>
-          <string>.ffapple.com</string>
-          <string>.ppq.apple.com</string>
-          <string>ff.apple.com</string>
-          <string>ff2.apple.com</string>
-          <string>.ff.apple.com</string>
-          <string>ppq2.apple.com</string>
-          <string>.ppq2.apple.com</string>
-          <string>pagead2.googlesyndication.com</string>
+					<string>ocsp.apple.com</string>
+					<string>ocsp2.apple.com</string>
+					<string>certs.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>mesu.apple.com</string>
+					<string>appattest.apple.com</string>
+					<string>vpp.itunes.apple.com</string>
+					<string>comm-main.ess.apple.com</string>
+					<string>comm-cohort.ess.apple.com</string>
+					<string>axm-app.apple.com</string>
+					<string>gdmf.apple.com</string>
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Block Default Revoke</string>
+			<string>Blocking Cert 🍎</string>
 			<key>PayloadIdentifier</key>
-			<string>com.cloudflare.warp.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
+			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
 			<key>PayloadOrganization</key>
-			<string>huynt79</string>
+			<string>mhuynt79🇻🇳</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
+			<string>c26bcb7b-51df-443c-b842-b46ba09b3190</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
-    
-    <dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-          <string>HTTPS</string>
-          <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/129b32/nhutggvn</string>
-			</dict>
-			<key>PayloadDisplayName</key>
-			<string>Block Cert,No ADS</string>
-			<key>PayloadIdentifier</key>
-			<string>io.nextdns.129b32.profile.dnsSettings.managed</string>
-			<key>PayloadOrganization</key>
-			<string>DNS Block Cert</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.129b32.dnsSettings.managed</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-    </array>
-  </dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>MHuyNT79🇻🇳( Đọc kỹ Nhé )
+
+- Không Phải Bạn Nào Cũng Thành Công
+
+- Và Cũng Có Tỉ Lệ Cài Thành Công Là 50/50
+
+- Bạn Nào Cài Thành Công Thì Chúc Mừng Nhé ✔️
+</string>
+	<key>PayloadDisplayName</key>
+	<string>DNS By MHuyNT79🇻🇳</string>
+	<key>PayloadIdentifier</key>
+	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>fafd46f6-4af6-4ee2-b538-eceb5b7cf1a1</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
 </plist>
